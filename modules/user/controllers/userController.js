@@ -5,7 +5,7 @@ async function signup(payload) {
     try {
         const { username, email, password } = payload;
 
-        const checkIfUserExists = await userService.fetchUserByEmail({email, username});
+        const checkIfUserExists = await userService.fetchUserByEmailOrUsername({email, username});
         
         if(checkIfUserExists.length) {
             return [true, "Duplicate user"];

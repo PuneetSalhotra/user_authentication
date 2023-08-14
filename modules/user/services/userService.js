@@ -115,7 +115,8 @@ module.exports = {
     fetchUser,
     updateLoggedInFlag,
     fetchUserByUsername,
-    checkIfUserIsValid
+    checkIfUserIsValid,
+    fetchUserByEmailOrUsername
 }
   
   
