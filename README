@@ -2,4 +2,8 @@ NPM INSTALL
 
 node app.js
 
-API documentation
+API documentation URL : http://localhost:3000/api-docs
+
+IMPORT DATABASE. File Name: database_structure.sql
+DATABASE_NAME : user_authentication
+Use you own credentials
